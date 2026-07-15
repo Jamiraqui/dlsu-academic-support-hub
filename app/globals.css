@@ -52,3 +52,7 @@ footer{max-width:1320px;margin:24px auto 0;border-radius:48px 48px 0 0;backgroun
 .hero .finalHero img{display:block;width:126%;height:126%;max-width:none;object-fit:contain;object-position:right center;transform:translateX(-2%)}
 @media(max-width:1000px){.hero .finalHero{width:calc(100% + 92px);margin-left:-40px;margin-right:-52px}.hero .finalHero img{width:120%;height:120%;transform:translateX(-1%)}}
 @media(max-width:650px){.hero .finalHero{height:410px;width:calc(100% + 40px);margin-left:-20px;margin-right:-20px}.hero .finalHero img{width:116%;height:116%;transform:none}}
+
+/* Requested image replacements only */
+.about .campusFrame{background-image:linear-gradient(0deg,#062b1838,transparent 48%),url('/about-unit-bottom.png');background-position:center 54%;background-size:cover}
+.contactPhoto{background-image:linear-gradient(0deg,#062b1850,transparent 62%),url('/contact-final-2.png');background-position:center 42%;background-size:cover}
